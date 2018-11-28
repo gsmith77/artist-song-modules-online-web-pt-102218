@@ -7,6 +7,8 @@
 
 
 require_relative '../config/environment'
+require_relative '../lib/concerns/memorable.rb'
+require_relative '../lib/concerns/findable.rb'
 
 
 RSpec.configure do |config|

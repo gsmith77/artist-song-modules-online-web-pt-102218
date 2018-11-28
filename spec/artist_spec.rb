@@ -1,4 +1,6 @@
-require_relative './spec_helper'
+require_relative './spec_helper.rb'
+require_relative '../lib/concerns/memorable.rb'
+require_relative '../lib/concerns/findable.rb'
 
 describe Artist do
   before(:each) do
